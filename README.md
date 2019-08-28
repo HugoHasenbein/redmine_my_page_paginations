@@ -37,7 +37,8 @@ Redmine plugin to add pagination links to my page queries
 ### Localisations
 
 * 1.0.2
-  - none - no localizable strings
+  - English
+  - German
 
 ### Change-Log* 
 
