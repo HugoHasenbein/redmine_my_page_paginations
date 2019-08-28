@@ -6,7 +6,7 @@ Redmine plugin to add pagination links to my page queries
 
 * Redmine's current My Page only shows rigid 10 line queries. This plugin adds pagination links to queries. It honors setting in Administration->Settings->General->Object per page options
 
-![PNG that represents a quick overview](/doc/my_page.png)
+![PNG that represents a quick overview](/doc/my_page_example.png)
 
 ### Install
 
