@@ -22,7 +22,7 @@ Redmine plugin to add pagination links to my page queries
 
 1. go to plugins folder, delete plugin folder redmine_my_page_pagination
 
-`rm -r redmine_tint_issues`
+`rm -r redmine_my_page_pagination`
 
 2. restart server f.i. 
 
