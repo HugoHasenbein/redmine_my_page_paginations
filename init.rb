@@ -18,14 +18,15 @@
 # along with this program; if not, write to the Free Software
 # Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 #
-
+# 1.0.1
+#       - added support for non-latin script
 require 'redmine'
 
 Redmine::Plugin.register :redmine_my_page_paginations do
   name 'Redmine My Page Paginations'
   author 'Stephan Wenzel'
   description 'This is a plugin for Redmine to add pagination links to my page queries'
-  version '1.0.0'
+  version '1.0.1'
   url 'https://github.com/HugoHasenbein/redmine_my_page_paginations'
   author_url 'https://github.com/HugoHasenbein/redmine_my_page_paginations'
   

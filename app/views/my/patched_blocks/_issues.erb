@@ -38,7 +38,7 @@
         @issue_pages, 
         query.issue_count, 
         :per_page_links => true 
-      ) { |text, parameters, options| link_to text, update_my_page_paginations_path(query.id ? "#{query.id}" : query.name.parameterize, parameters), options } %></span>
+      ) { |text, parameters, options| link_to text, update_my_page_paginations_path(query.id.present? ? "#{query.id}" : Digest::MD5(query.name), parameters ), options } %></span>
   <%- end %>
 <% content_for :header_tags do %>
 <%= auto_discovery_link_tag(:atom,
