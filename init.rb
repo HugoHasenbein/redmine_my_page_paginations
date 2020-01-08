@@ -20,13 +20,16 @@
 #
 # 1.0.1
 #       - added support for non-latin script
+# 1.0.2
+#       - fixed a bug, which may have caused a crash when using Digest::MD5 for non-latin scripts
+# 
 require 'redmine'
 
 Redmine::Plugin.register :redmine_my_page_paginations do
   name 'Redmine My Page Paginations'
   author 'Stephan Wenzel'
   description 'This is a plugin for Redmine to add pagination links to my page queries'
-  version '1.0.1'
+  version '1.0.2'
   url 'https://github.com/HugoHasenbein/redmine_my_page_paginations'
   author_url 'https://github.com/HugoHasenbein/redmine_my_page_paginations'
   
