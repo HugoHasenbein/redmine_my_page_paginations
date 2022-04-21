@@ -19,7 +19,7 @@
 # Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 #
 
-module RedmineMyPagePaginationLinks
+module RedmineMyPagePaginations
   module Patches    
     module MyHelperPatch
       def self.included(base) # :nodoc: 
@@ -99,6 +99,6 @@ module RedmineMyPagePaginationLinks
   end
 end
 
-unless MyHelper.included_modules.include?(RedmineMyPagePaginationLinks::Patches::MyHelperPatch)
-  MyHelper.send(:include, RedmineMyPagePaginationLinks::Patches::MyHelperPatch)
+unless MyHelper.included_modules.include?(RedmineMyPagePaginations::Patches::MyHelperPatch)
+  MyHelper.send(:include, RedmineMyPagePaginations::Patches::MyHelperPatch)
 end

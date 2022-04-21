@@ -19,7 +19,7 @@
 # Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 #
 
-module RedmineMyPagePaginationLinks
+module RedmineMyPagePaginations
   module Patches
     module UserPreferencePatch
       def self.included(base) # :nodoc: 
@@ -54,6 +54,6 @@ module RedmineMyPagePaginationLinks
   end
 end
 
-unless UserPreference.included_modules.include?(RedmineMyPagePaginationLinks::Patches::UserPreferencePatch)
-  UserPreference.send(:include, RedmineMyPagePaginationLinks::Patches::UserPreferencePatch)
+unless UserPreference.included_modules.include?(RedmineMyPagePaginations::Patches::UserPreferencePatch)
+  UserPreference.send(:include, RedmineMyPagePaginations::Patches::UserPreferencePatch)
 end
