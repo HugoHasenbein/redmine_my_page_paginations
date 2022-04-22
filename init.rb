@@ -35,5 +35,5 @@ Redmine::Plugin.register :redmine_my_page_paginations do
   
 end
 
-require 'redmine_my_page_paginations'
-
+include RedmineMyPagePaginations::Patches::MyHelperPatch
+include RedmineMyPagePaginations::Patches::UserPreferencePatch

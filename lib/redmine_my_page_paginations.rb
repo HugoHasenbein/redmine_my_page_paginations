@@ -19,5 +19,5 @@
 # Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 #
 
-  require 'redmine_my_page_paginations/patches/user_preference_patch'
-  require 'redmine_my_page_paginations/patches/my_helper_patch'
+module RedmineMyPagePaginations
+end
