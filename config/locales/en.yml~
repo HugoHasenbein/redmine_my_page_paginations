@@ -20,10 +20,5 @@
 #
 
 en:
-  # ---------- General Settings ----------
-  # Plugin names, etc.
-  project_module_redmine_my_page_paginations: "MyPage Pagininations"
+  project_module_redmine_my_page_paginations: "MyPage Paginations"
   
-  # ---------- Permission Settings ----------
-  # Permission settings in Administration -> Roles and Permissions
-  permission_update_my_page_paginations: "Edit MyPage Pagination"
